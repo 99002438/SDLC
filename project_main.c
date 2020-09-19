@@ -7,38 +7,37 @@ int main()
  
     // Function call 
     //calculator_operations();
- 
-    while(X)
-    {
-        printf("\n");
         //printf("%s : ", KEY);
  
         //Calc_oprn=getche();
  
         switch(option)
         {
-            case '+': addition();
+            case '+': addition(n1,n2);
                       break;
  
-            case '-': subtraction();
+            case '-': subtraction(n1,n2);
                       break;
  
-            case '*': multiplication();
+            case '*': multiplication(n1,n2);
                       break;
  
-            case '/': division();
+            case '/': division(n1,n2);
                       break;
  
-            case '%': modulus();
+            case '%': modulus(n1,n2);
                       break;
  
-            case '!': factorial();
+            case '!': factorial(n1,n2);
                       break;
  
-            case '^': power();
+            case '^': power(n1,n2);
+                      break;
+                
+            case '!':factorial(n1);
                       break;
  
-            case 'H':
+           /* case 'H':
             case 'h': calculator_operations();
                       break;
  
@@ -51,19 +50,15 @@ int main()
                       break;
  
             default : system("cls");
+            */
  
-    printf("\n**********You have entered unavailable option");
-    printf("***********\n");
-    printf("\n*****Please Enter any one of below available ");
-    printf("options****\n");
-                      calculator_operations();
-        }
     }
+    return 0;
 }
  
 //Function Definitions
  
-void calculator_operations()
+/*void calculator_operations()
 {
     //system("cls");  use system function to clear 
     //screen instead of clrscr();
@@ -83,4 +78,4 @@ void calculator_operations()
     printf("Enter ? symbol for Modulus\n");
     printf("Enter ^ symbol for Power \n");
     printf("Enter ! symbol for Factorial \n\n");
-}
+}*/
