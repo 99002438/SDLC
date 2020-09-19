@@ -36,29 +36,29 @@ int multiply(int number1,int number2)
     return mul;
 }
  
-int divide(int number1,int number2)
+float divide(float number1,float number2)
 {
     int a, b, d=0; 
     printf("\nPlease enter first number  : "); 
-    scanf("%d", &a); 
+    scanf("%f", &a); 
     printf("Please enter second number : "); 
-    scanf("%d", &b);
+    scanf("%f", &b);
     d=a/b;
     return d;
 }
  
-int modulus(int number1,int number2)
+float modulus(float number1,float number2)
 {
     int a, b, d=0; 
     printf("\nPlease enter first number   : "); 
-    scanf("%d", &a); 
+    scanf("%f", &a); 
     printf("Please enter second number  : "); 
-    scanf("%d", &b);
+    scanf("%f", &b);
     d=a%b;
     return d;
 }
  
-int power(int number1,int number2)
+double power(double number1,double number2)
 {
     double a,num, p;
     printf("\nEnter two numbers to find the power \n");
