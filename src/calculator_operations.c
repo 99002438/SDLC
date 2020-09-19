@@ -34,7 +34,7 @@ int modulus(int number1,int number2)
     return answer;
 }
  
-int power(int number,int pow)
+/*int power(int number,int pow)
 {
    int answer=1;
     while(pow !=0)
@@ -42,7 +42,7 @@ int power(int number,int pow)
         answer *= number;
         --pow;
     }
-}
+}*/
  
 int factorial(int number)
 {
