@@ -1,20 +1,21 @@
 #include "calculator_operations.h"
 int main()
 {
-    int X=1;
-    char Calc_oprn;
+    int option;
+    int n1;
+    int n2;
  
     // Function call 
-    calculator_operations();
+    //calculator_operations();
  
     while(X)
     {
         printf("\n");
         //printf("%s : ", KEY);
  
-        Calc_oprn=getche();
+        //Calc_oprn=getche();
  
-        switch(Calc_oprn)
+        switch(option)
         {
             case '+': addition();
                       break;
