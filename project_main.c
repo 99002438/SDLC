@@ -10,7 +10,7 @@ int main()
     while(X)
     {
         printf("\n");
-        printf("%s : ", KEY);
+        //printf("%s : ", KEY);
  
         Calc_oprn=getche();
  
@@ -28,7 +28,7 @@ int main()
             case '/': division();
                       break;
  
-            case '?': modulus();
+            case '%': modulus();
                       break;
  
             case '!': factorial();
